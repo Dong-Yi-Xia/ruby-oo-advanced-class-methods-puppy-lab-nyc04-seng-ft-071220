@@ -12,7 +12,7 @@ class Dog
         save
     end
 
-    def self.all 
+    def self.all
         @@all
     end
 
@@ -20,7 +20,7 @@ class Dog
         self.all.each{|dog| puts dog.name }
     end
 
-    def self.clear_all 
+    def self.clear_all
         self.all.clear
     end
 
